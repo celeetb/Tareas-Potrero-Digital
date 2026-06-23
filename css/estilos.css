@@ -187,7 +187,6 @@ header {display: flex;
 
 .marco{padding:50px 50px}
 
-
 .logo{ width:160px;
        height: 160px;
        width:200px;
@@ -196,7 +195,8 @@ header {display: flex;
 
 .redes img {width:60px;
             height: 60px;
-            padding-right: 20px}
+            padding-right: 20px;
+            object-fit: cover;}
 
 footer{display: flex;
       justify-content: space-around;
