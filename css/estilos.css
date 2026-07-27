@@ -55,7 +55,6 @@ body { background-color: #F7F3E9;
 .enlace a {
         padding: 10px 15px;
         border-radius: 10px;
-        color: #1D3557;
         text-decoration: none;
         font-weight: bold;
         transition: 0.3s;}
