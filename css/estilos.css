@@ -61,9 +61,6 @@ body { background-color: #F7F3E9;
         transition: 0.3s;}
 
 
-
-.enlace a:visited {color: purple;}
-
 .recetas { background-color: white;
     width: 80%;
     margin: auto;
