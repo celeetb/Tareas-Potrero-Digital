@@ -53,7 +53,6 @@ body { background-color: #F7F3E9;
         padding: 0;
         flex-wrap: wrap;}
 .enlace a {
-        background-color: white;
         padding: 10px 15px;
         border-radius: 10px;
         color: #1D3557;
@@ -61,9 +60,7 @@ body { background-color: #F7F3E9;
         font-weight: bold;
         transition: 0.3s;}
 
-.enlace a:hover {
-        background-color: #1D3557;
-        color: white;}
+
 
 .enlace a:visited {color: purple;}
 
