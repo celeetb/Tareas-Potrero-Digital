@@ -1,0 +1,310 @@
+
+header {display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#003B73;}
+
+.logo { height:auto;
+        width: 250px;
+        padding-left: 50px;}
+
+.menú { padding-right: 50px;}
+
+.navbar{ background: transparent !important;
+         box-shadow: none;
+         border: none;
+         padding: 0;}
+
+.navbar .nav-link{ color: #ffffff;
+                   font-weight: 500;
+                   margin: 0 10px;}
+
+.navbar .nav-link:hover{ color: #0B6FCF !important;}
+
+.nav-link{ color: white !important;
+           transition: 0.3s;}
+
+.navbar .nav-link{ font-family:'inter', sans-serif;}
+
+.navbar-nav{gap: 35px;
+            padding-right: 50px}
+
+.btn{color: white !important;
+     border-color: #003B73 !important;
+    background-color:}
+
+
+.carousel-item img{height: 800px;
+                   object-fit: cover;
+                   filter: brightness(45%);}
+
+.carousel-caption{bottom: 25%;}
+
+.carousel-caption h1{font-size: 60px;
+                     font-weight: 700;
+                     text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+
+.carousel-caption p{font-size: 22px;
+                    margin-bottom: 25px;
+                    text-shadow: 2px 2px 10px rgba(0,0,0,.6);}
+
+.carousel-caption .btn{padding: 12px 28px;
+                       font-size: 18px;
+                       border-radius: 30px;}
+
+.hero-content {transform: translateY(-40px);}
+
+.hero::after {content:"";
+              position: absolute;
+              inset: 0;
+              background: linear-gradient(
+              rgba(0,0,0,0.25),
+              rgba(0,0,0,0.45));}
+
+.botonR{display: flex;
+        justify-content: center;}
+
+.marca{ height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+.marca img{max-width: 120px;
+           max-height: 60px;
+           width: auto;
+           height: auto;}
+
+.marcas{display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;}
+
+ body{font-family: 'inter', sans-serif;}
+
+.reparacion{text-align: center;}
+
+.reparacion h2 {font-size: 5rem;
+                 font-weight: 800;}
+
+.reparacion h5 {font-size: 2rem;
+                font-weight: 600;}
+
+.reparacion p{font-size: 1.5rem;
+              line-height: 1.5;}
+
+ #reparacion{ background: linear-gradient(to bottom,white,#154c8a);
+              padding: 90px 200px;}
+
+.experencia{background: #eef6ff;
+            border-left: 5px solid #0d6efd;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 40px 0;}
+
+.experencia h5{font-weight: 700;
+               margin-bottom: 10px;}
+
+.experencia p{margin: 0;
+              color: #555;
+              font-size:1.2rem}
+
+.card-servicio{flex: 1 1 220px;
+               max-width: 2500px;
+               max-height: none;
+               background: white;
+               border-radius: 15px;
+               padding: 30px 20px;
+               box-shadow: 0 5px 18px rgba(0,0,0,.08);
+               transition: .3s;}
+
+.card-servicio i{font-size: 45px;
+                 color: #0d6efd;
+                 margin-bottom: 20px;}
+
+.card-servicio h5{font-weight: 700;
+                  margin-bottom: 15px;}
+
+.card-servicio p{color: #666;
+                 margin-bottom: 0;}
+
+.botonR .btn{padding: 14px 40px;
+             border-radius: 50px;
+             font-weight: 600;
+             transition: .3s;}
+
+.botonR .btn:hover{transform: translateY(-2px);}
+
+.servicios{display: flex;
+           justify-content: center;
+           gap: 25px;
+           flex-wrap: wrap;}
+
+.descripcion{border-left: 5px solid #345dc7;
+             border-right: 5px solid #345dc7;
+             border-radius: 16px;
+             max-width: 1000px;
+             margin: 35px auto;
+             padding: 25px 30px }
+
+
+#limpieza{padding:90px 120px;
+          background: #a5c0e6;}
+
+.titulo-limpieza{text-align:center;
+                 font-size:3.5rem;
+                 font-weight:800;
+                 color:#003B73;
+                 margin-bottom:60px;}
+
+.titulo-limpieza i{color:#0d6efd;}
+
+.contenedor-limpieza{display:flex;
+                     justify-content:center;
+                     align-items:stretch;
+                     gap:40px;
+                     flex-wrap:wrap}
+
+.card-limpieza{flex:1;
+               min-width:380px;
+               background:white;
+               border-radius:18px;
+               padding:40px;
+               box-shadow:0 10px 25px rgba(0,0,0,.08);
+               transition:.3s;
+               display:flex;
+               flex-direction:column}
+
+.card-limpieza h4{color:#003B73;
+                  font-size:2rem;
+                  font-weight:700;
+                  margin-bottom:20px;}
+
+.card-limpieza p{font-size:1.15rem;
+                 line-height:1.8;
+                 color:#555;
+                 margin-bottom:30px;}
+
+.lista-limpieza{list-style:none;
+                padding:0;
+                margin-bottom:35px;}
+
+.lista-limpieza li{display:flex;
+                   align-items:center;
+                   gap:12px;
+                   margin-bottom:18px;
+                   font-size:1.1rem;}
+
+.lista-limpieza i{color:#0d6efd;
+                  font-size:1.3rem;}
+
+.card-beneficios{position:relative;
+                 flex:1;
+                 min-width:380px;
+                 background:white;
+                 border-radius:18px;
+                 padding:40px;
+                 box-shadow:0 10px 25px rgba(0,0,0,.08);
+                 transition:.3s;
+                 display:flex;
+                 flex-direction:column}
+
+.card-beneficios::before{content:"";
+                         position:absolute;
+                         top:0;
+                         left:0;
+                         width:100%;
+                         height:6px;
+                         background:#0d6efd;
+                         border-radius:18px 18px 0 0;}
+
+.card-beneficios h4{color:#003B73;
+                    font-size:2rem;
+                    font-weight:700;
+                    margin-bottom:30px;}
+
+.card-beneficios ul{list-style:none;
+                    padding:0;
+                    margin:0;
+                    flex:1;
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-evenly;}
+
+.card-beneficios li{display:flex;
+                    align-items:center;
+                    gap:12px;
+                    margin-bottom:22px;
+                    font-size:1.15rem;}
+
+.card-beneficios i{color:#0d6efd;
+                   font-size:1.3rem;}
+
+.card-limpieza .btn{margin-top:auto;
+                    align-self:center;
+                    padding:12px 35px;
+                  border-radius:40px;}
+
+#compra{padding:90px 120px;
+        background:linear-gradient(to bottom,#eef5ff,#dbeafe);}
+
+.titulo-compra{text-align:center;
+               font-size:3.5rem;
+               font-weight:800;
+               color:#003B73;
+               margin-bottom:60px;}
+
+.titulo-compra i{color:#0d6efd;}
+
+.contenedor-compra{display:flex;
+                   gap:40px;
+                   justify-content:center;
+                   align-items:stretch;
+                   flex-wrap:wrap;}
+.card-compra,
+.card-venta{flex:1;
+            min-width:350px;
+            background:white;
+            border-radius:20px;
+            padding:40px;
+            box-shadow:0 10px 30px rgba(0,0,0,.08);
+            display:flex;
+            flex-direction:column;}
+
+.card-compra{border-top:6px solid #0d6efd;}
+
+.card-venta{border-top:6px solid #198754;}
+
+.card-compra h3,
+.card-venta h3{text-align:center;
+               margin-bottom:25px;
+               font-weight:700;
+               color:#003B73;}
+
+.card-compra p,
+.card-venta p{font-size:1.15rem;
+              line-height:1.8;
+              color:#555;
+              flex:1;}
+
+.card-compra ul,
+.card-venta ul{list-style:none;
+               padding:0;
+               margin:20px 0;}
+
+.card-compra li,
+.card-venta li{margin-bottom:15px;
+               font-size:1.08rem;
+               display:flex;
+               align-items:center;
+               gap:12px;}
+
+.card-compra li i{color:#0d6efd;}
+
+.card-venta li i{color:#198754;}
+
+.card-compra .btn,
+.card-venta .btn{align-self:center;
+                 margin-top:25px;
+                 padding:14px 35px;
+                 border-radius:40px;
+                 font-weight:600;}
